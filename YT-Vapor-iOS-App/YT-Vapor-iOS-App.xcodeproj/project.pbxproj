@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0252F482ADC336A008C8DBE /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0252F472ADC336A008C8DBE /* ModalType.swift */; };
+		D0252F4A2ADC344D008C8DBE /* AddUpdateSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0252F492ADC344D008C8DBE /* AddUpdateSong.swift */; };
+		D0252F4C2ADC3483008C8DBE /* AddUpdateSongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0252F4B2ADC3483008C8DBE /* AddUpdateSongViewModel.swift */; };
+		D0DD69EA2ADA05E500A7A5DD /* YT_Vapor_iOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD69E92ADA05E500A7A5DD /* YT_Vapor_iOS_AppApp.swift */; };
+		D0DD69EC2ADA05E500A7A5DD /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD69EB2ADA05E500A7A5DD /* SongList.swift */; };
+		D0DD69EE2ADA05E600A7A5DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DD69ED2ADA05E600A7A5DD /* Assets.xcassets */; };
+		D0DD69F12ADA05E600A7A5DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DD69F02ADA05E600A7A5DD /* Preview Assets.xcassets */; };
+		D0DD69FC2ADA0DE000A7A5DD /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD69FB2ADA0DE000A7A5DD /* Song.swift */; };
+		D0DD69FE2ADA164800A7A5DD /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD69FD2ADA164800A7A5DD /* SongListViewModel.swift */; };
+		D0DD6A002ADA178200A7A5DD /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD69FF2ADA178200A7A5DD /* HttpClient.swift */; };
+		D0DD6A022ADA194100A7A5DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD6A012ADA194100A7A5DD /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0252F472ADC336A008C8DBE /* ModalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
+		D0252F492ADC344D008C8DBE /* AddUpdateSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateSong.swift; sourceTree = "<group>"; };
+		D0252F4B2ADC3483008C8DBE /* AddUpdateSongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateSongViewModel.swift; sourceTree = "<group>"; };
+		D0DD69E62ADA05E500A7A5DD /* YT-Vapor-iOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YT-Vapor-iOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DD69E92ADA05E500A7A5DD /* YT_Vapor_iOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YT_Vapor_iOS_AppApp.swift; sourceTree = "<group>"; };
+		D0DD69EB2ADA05E500A7A5DD /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+		D0DD69ED2ADA05E600A7A5DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0DD69F02ADA05E600A7A5DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0DD69FB2ADA0DE000A7A5DD /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		D0DD69FD2ADA164800A7A5DD /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
+		D0DD69FF2ADA178200A7A5DD /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		D0DD6A012ADA194100A7A5DD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0DD69E32ADA05E500A7A5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0DD69DD2ADA05E500A7A5DD = {
+			isa = PBXGroup;
+			children = (
+				D0DD69E82ADA05E500A7A5DD /* YT-Vapor-iOS-App */,
+				D0DD69E72ADA05E500A7A5DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DD69E72ADA05E500A7A5DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD69E62ADA05E500A7A5DD /* YT-Vapor-iOS-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DD69E82ADA05E500A7A5DD /* YT-Vapor-iOS-App */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD69F72ADA0D6A00A7A5DD /* Models */,
+				D0DD69F92ADA0D7F00A7A5DD /* Views */,
+				D0DD69F82ADA0D7700A7A5DD /* ViewModels */,
+				D0DD69FA2ADA0D9A00A7A5DD /* Utilities */,
+				D0DD69E92ADA05E500A7A5DD /* YT_Vapor_iOS_AppApp.swift */,
+				D0DD69ED2ADA05E600A7A5DD /* Assets.xcassets */,
+				D0DD69EF2ADA05E600A7A5DD /* Preview Content */,
+			);
+			path = "YT-Vapor-iOS-App";
+			sourceTree = "<group>";
+		};
+		D0DD69EF2ADA05E600A7A5DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD69F02ADA05E600A7A5DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0DD69F72ADA0D6A00A7A5DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD69FB2ADA0DE000A7A5DD /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0DD69F82ADA0D7700A7A5DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD69FD2ADA164800A7A5DD /* SongListViewModel.swift */,
+				D0252F4B2ADC3483008C8DBE /* AddUpdateSongViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D0DD69F92ADA0D7F00A7A5DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD69EB2ADA05E500A7A5DD /* SongList.swift */,
+				D0252F492ADC344D008C8DBE /* AddUpdateSong.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0DD69FA2ADA0D9A00A7A5DD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D0DD6A012ADA194100A7A5DD /* Constants.swift */,
+				D0DD69FF2ADA178200A7A5DD /* HttpClient.swift */,
+				D0252F472ADC336A008C8DBE /* ModalType.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0DD69E52ADA05E500A7A5DD /* YT-Vapor-iOS-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DD69F42ADA05E600A7A5DD /* Build configuration list for PBXNativeTarget "YT-Vapor-iOS-App" */;
+			buildPhases = (
+				D0DD69E22ADA05E500A7A5DD /* Sources */,
+				D0DD69E32ADA05E500A7A5DD /* Frameworks */,
+				D0DD69E42ADA05E500A7A5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YT-Vapor-iOS-App";
+			productName = "YT-Vapor-iOS-App";
+			productReference = D0DD69E62ADA05E500A7A5DD /* YT-Vapor-iOS-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0DD69DE2ADA05E500A7A5DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D0DD69E52ADA05E500A7A5DD = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D0DD69E12ADA05E500A7A5DD /* Build configuration list for PBXProject "YT-Vapor-iOS-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0DD69DD2ADA05E500A7A5DD;
+			productRefGroup = D0DD69E72ADA05E500A7A5DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0DD69E52ADA05E500A7A5DD /* YT-Vapor-iOS-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0DD69E42ADA05E500A7A5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DD69F12ADA05E600A7A5DD /* Preview Assets.xcassets in Resources */,
+				D0DD69EE2ADA05E600A7A5DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DD69E22ADA05E500A7A5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DD6A002ADA178200A7A5DD /* HttpClient.swift in Sources */,
+				D0252F4C2ADC3483008C8DBE /* AddUpdateSongViewModel.swift in Sources */,
+				D0252F4A2ADC344D008C8DBE /* AddUpdateSong.swift in Sources */,
+				D0252F482ADC336A008C8DBE /* ModalType.swift in Sources */,
+				D0DD69FC2ADA0DE000A7A5DD /* Song.swift in Sources */,
+				D0DD69FE2ADA164800A7A5DD /* SongListViewModel.swift in Sources */,
+				D0DD69EC2ADA05E500A7A5DD /* SongList.swift in Sources */,
+				D0DD69EA2ADA05E500A7A5DD /* YT_Vapor_iOS_AppApp.swift in Sources */,
+				D0DD6A022ADA194100A7A5DD /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0DD69F22ADA05E600A7A5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0DD69F32ADA05E600A7A5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0DD69F52ADA05E600A7A5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YT-Vapor-iOS-App/Preview Content\"";
+				DEVELOPMENT_TEAM = 57ZJ5ZD5XZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pefra.YT-Vapor-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0DD69F62ADA05E600A7A5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YT-Vapor-iOS-App/Preview Content\"";
+				DEVELOPMENT_TEAM = 57ZJ5ZD5XZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pefra.YT-Vapor-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0DD69E12ADA05E500A7A5DD /* Build configuration list for PBXProject "YT-Vapor-iOS-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DD69F22ADA05E600A7A5DD /* Debug */,
+				D0DD69F32ADA05E600A7A5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DD69F42ADA05E600A7A5DD /* Build configuration list for PBXNativeTarget "YT-Vapor-iOS-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DD69F52ADA05E600A7A5DD /* Debug */,
+				D0DD69F62ADA05E600A7A5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0DD69DE2ADA05E500A7A5DD /* Project object */;
+}
